@@ -9,10 +9,10 @@ I added the timeout function to the list sub menu on hover, as WCAG indicated th
 
 I followed the WCAG specifications for fly-out menus [here](https://www.w3.org/WAI/tutorials/menus/flyout/), including the aria attributes.  I need to test this further to ensure keyboard navigation is appropriate & would test it with a screen reader to make sure it is semantically logical and easy to follow.  I would also perform cross-browser testing - I did add the Normalize code to the CSS to help ensure it wouldn't be too different, but it would be a more robust product with cross browser testing.
 
-There are clearly some margin/padding areas that needs to be tinkered with still, especially with the on click Profile sub menu.  The flex box needs a bit of work for the overall menu, as there is a 'Link' item partially hidden by the Profile area.
+There are clearly some margin/padding areas that needs to be tinkered with still, especially with the on click Profile sub menu.  The flex box needs a bit of work for the overall menu, as there is a 'Link' item partially hidden by the Profile item.
 
-I also need to format the mobile menu when it is revealed.  I would add different margins & padding to better render it to the PSD.
+I also need to format the mobile menu when it is revealed.  I would add different margins & padding to better render it to the PSD.  I also need to tinker with the JavaScript to reveal the second Link's sub-menu on click.
 
-I think it would take me another 30-60 minutes to finish it to my liking (slightly perfectionist tendencies ;) ).
+I think it would take me another 30-60 minutes to finish it to my liking (slightly perfectionist tendencies ;) ). In the long run, I would prefer to use SASS or another CSS pre-processor to better modularize the CSS file to prevent it from becoming too unruly.
 
 
